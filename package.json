@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production rimraf public && webpack --mode production",
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
-    "deploy": "cross-env NODE_ENV=production gh-pages -d public"
+    "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,6 @@
   "devDependencies": {
     "@babel/cli": "=7.8.4",
     "@babel/core": "=7.8.4",
-    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.10.4",
     "autoprefixer": "^9.8.5",
     "babel-loader": "^8.1.0",
@@ -42,7 +41,6 @@
     "webpack-md5-hash": "0.0.6"
   },
   "dependencies": {
-    "@glidejs/glide": "^3.4.1",
     "babel-polyfill": "^6.26.0",
     "core-js": "^3.4.1"
   }
