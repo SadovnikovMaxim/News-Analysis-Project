@@ -1,0 +1,35 @@
+@import url(./__commit-text/glide__commit-text.css);
+@import url(./__date/glide__date.css);
+@import url(./__email/glide__email.css);
+@import url(./__photo/glide__photo.css);
+@import url(./__slide/glide__slide.css);
+@import url(./__text-info/glide__text-info.css);
+@import url(./__user-info/glide__user-info.css);
+@import url(./__user-name/glide__user-name.css);
+@import url(./__track/glide__track.css);
+@import url(./__title-container/glide__title-container.css);
+@import url(./__title/glide__title.css);
+@import url(./__link/glide__link.css);
+@import url(./__link-text/glide__link-text.css);
+@import url(./__back-pic/glide__back-pic.css);
+@import url(./__button/glide__button.css);
+@import url(./__arrow/glide__arrow.css);
+
+.glide {
+  background: #F5F6F7;
+  width: 100%;
+  padding: 72px 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 4768px) {
+  .glide {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .glide {
+    padding: 32px 0;
+  }
+}

@@ -1,0 +1,14 @@
+.glide__date {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #B6BCBF;
+}
+
+@media screen and (max-width: 500px) {
+  .glide__date  {
+    margin-top: 0px;
+  }
+}

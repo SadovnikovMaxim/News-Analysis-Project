@@ -1,0 +1,12 @@
+.header__item {
+  text-decoration: none;
+  color: #1A1B22;
+  height: 100%;
+  margin: 30px 0 0;
+}
+
+.header__item:hover {
+  cursor: url('../../../../images/cursor.svg'), auto;
+  opacity: 0.4;
+  transition: linear 0.3s;
+}

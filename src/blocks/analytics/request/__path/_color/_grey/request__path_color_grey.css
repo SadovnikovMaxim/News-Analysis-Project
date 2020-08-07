@@ -1,0 +1,16 @@
+.request__path_color_grey {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  max-height: 24px;
+  color: #B6BCBF;
+}
+
+@media screen and (max-width: 500px) {
+  .request__path_color_grey {
+    display: none;
+  }
+}
+

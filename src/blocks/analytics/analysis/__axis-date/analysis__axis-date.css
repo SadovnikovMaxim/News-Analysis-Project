@@ -1,0 +1,9 @@
+.analysis__axis-date {
+  width: 104px;
+}
+
+@media screen and (max-width: 500px) {
+  .analysis__axis-date{
+    margin-top: 0px;
+  }
+}

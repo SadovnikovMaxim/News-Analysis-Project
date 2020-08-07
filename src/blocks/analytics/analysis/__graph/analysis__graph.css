@@ -1,0 +1,16 @@
+.analysis__graph {
+  width: calc(13% - 104px*13/100);
+  background: #2F71E5;
+  height: 24px;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-left: 4px;
+}

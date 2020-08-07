@@ -1,0 +1,21 @@
+.analysis__point {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #B6BCBF;
+}
+
+.analysis__point:first-of-type {
+  margin-left: 104px;
+}
+
+@media screen and (max-width: 480px) {
+  .analysis__point {
+    display: none;
+  }
+}

@@ -1,0 +1,10 @@
+.search-result__items {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 730px) {
+  .search-result__items {
+    flex-direction: column;
+  }
+}

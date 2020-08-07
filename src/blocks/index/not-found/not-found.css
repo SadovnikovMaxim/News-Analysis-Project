@@ -1,0 +1,16 @@
+@import url(./__title/not-found__title.css);
+@import url(./__subtitle/not-found__subtitle.css);
+@import url(./__image/not-found__image.css);
+
+.not-found {
+  width: 100%;
+  height: 374px;
+  background-color: #F5F6F7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.not-found_show {
+  display: flex;
+}

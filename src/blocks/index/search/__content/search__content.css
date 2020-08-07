@@ -1,0 +1,20 @@
+.search__content {
+  width: 608px;
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .search__content {
+    width: 452px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .search__content {
+    width: 90%;
+    margin-top: 30px;
+  }
+}

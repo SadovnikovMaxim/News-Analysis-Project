@@ -1,0 +1,30 @@
+.header__main {
+  text-decoration: none;
+  color: #fff;
+  font-family: Roboto Slab, Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 104px;
+}
+
+.header__main:hover {
+  cursor: url('../../../../images/cursor.svg'), auto;
+  opacity: 0.4;
+  transition: linear 0.3s;
+}
+
+@media screen and (max-width: 1200px) {
+  .header__main {
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .header__main {
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,15 @@
+.footer__link {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #1A1B22;
+}
+
+.footer__link:hover {
+  cursor: url('../../../../images/cursor.svg'), auto;
+  opacity: 0.4;
+  transition: linear 0.3s;
+}

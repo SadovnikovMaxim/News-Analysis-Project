@@ -1,0 +1,27 @@
+.search-result__item {
+  width: 32%;
+  background-color: #fff;
+  margin-right: 16px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-result__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 730px) {
+  .search-result__item {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-result__item {
+    margin-bottom: 8px;
+    min-height: auto;
+    height: auto;
+  }
+}

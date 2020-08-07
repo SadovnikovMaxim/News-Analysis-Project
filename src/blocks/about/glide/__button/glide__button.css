@@ -1,0 +1,23 @@
+.glide__button {
+  margin: 48px auto 0;
+  display: none;
+  width: 90%;
+  height: 56px;
+  border: 1px solid #1A1B22;
+  box-sizing: border-box;
+  border-radius: 80px;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #1A1B22;
+  outline: none;
+}
+
+@media screen and (max-width: 480px) {
+  .glide__button {
+    display: block;
+  }
+}

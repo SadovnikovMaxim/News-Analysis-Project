@@ -1,0 +1,25 @@
+.search-result__link {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #1A1B22;
+  text-decoration: none;
+  margin: 0;
+}
+
+.search-result__link:hover {
+  cursor: url('../../../../images/cursor.svg'), auto;
+  opacity: 0.4;
+  transition: linear 0.3s;
+}
+
+@media screen and (max-width: 730px) {
+  .search-result__link {
+    margin-top: 16px;
+  }
+}
