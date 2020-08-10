@@ -1,0 +1,22 @@
+@import url(./__path/request__path.css);
+@import url(./__path/_color/_grey/request__path_color_grey.css);
+@import url(./__title/request__title.css);
+@import url(./__subtitle/request__subtitle.css);
+@import url(./__subtitle/_text/_bold/request__subtitle_text_bold.css);
+
+.request {
+  padding: 40px 0 80px 104px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .request {
+    padding: 32px 40px 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .request {
+    padding: 16px 16px 24px;
+  }
+}

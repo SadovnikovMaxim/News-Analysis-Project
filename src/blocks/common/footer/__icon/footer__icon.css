@@ -1,0 +1,10 @@
+.footer__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__icon:hover {
+  cursor: url('../../../../images/cursor.svg'), auto;
+  opacity: 0.4;
+  transition: linear 0.3s;
+}

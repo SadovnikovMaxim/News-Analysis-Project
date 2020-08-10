@@ -1,0 +1,17 @@
+.about__info {
+  margin-left: 4%;
+  margin-top: 131px;
+}
+
+@media screen and (max-width: 768px) {
+  .about__info {
+    margin-top: 42px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .about__info {
+    margin: 24px auto 0;
+    width: 90%;
+  }
+}

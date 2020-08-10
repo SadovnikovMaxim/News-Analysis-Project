@@ -1,0 +1,7 @@
+.header__dash {
+  display: none;
+  width: 68px;
+  height: 5px;
+  background-image: url(../../../../images/line_black.svg);
+  background: black;
+}

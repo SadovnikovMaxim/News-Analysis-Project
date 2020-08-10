@@ -1,0 +1,19 @@
+.analysis__axis-text {
+  display: flex;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: #B6BCBF;
+  margin: 48px 0 0;
+  border-bottom: 1px solid #1A1B22;
+}
+
+@media screen and (max-width: 500px) {
+  .analysis__axis-text{
+    margin-top: 16px;
+  }
+}

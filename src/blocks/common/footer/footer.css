@@ -1,0 +1,15 @@
+@import url(./__copy/footer__copy.css);
+@import url(./__icon/footer__icon.css);
+@import url(./__icons/footer__icons.css);
+@import url(./__item/footer__item.css);
+@import url(./__nav/footer__nav.css);
+@import url(./__content/footer__content.css);
+@import url(./__link/footer__link.css);
+@import url(./__icon-link/footer__icon-link.css);
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}

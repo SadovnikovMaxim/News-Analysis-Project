@@ -1,0 +1,35 @@
+.about__subtitle {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  max-width: 600px;
+}
+
+.about__subtitle:first-child{
+  margin-bottom: 0;
+}
+
+.about__subtitle:last-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .about__subtitle {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__subtitle {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 665px) {
+  .about__subtitle {
+    margin-right: 0;
+  }
+}

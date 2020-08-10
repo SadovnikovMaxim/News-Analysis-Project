@@ -1,0 +1,23 @@
+@import url(./blocks/common/vendors/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./blocks/common/about/about.css);
+@import url(./blocks/common/footer/footer.css);
+@import url(./blocks/common/header/header.css);
+@import url(./blocks/index/search/search.css);
+@import url(./blocks/index/not-found/not-found.css);
+@import url(./blocks/index/preloader/preloader.css);
+@import url(./blocks/index/search-result/search-result.css);
+@import url(./blocks/index/clients/clients.css);
+@import url(./blocks/index/technology/technology.css);
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

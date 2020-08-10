@@ -1,0 +1,16 @@
+.glide__user-name {
+  font-family: Roboto Slab, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+  color: #1A1B22;
+  margin: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .glide__user-name {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}

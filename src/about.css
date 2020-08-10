@@ -1,0 +1,19 @@
+@import url(./blocks/common/vendors/normalize.css);
+@import url(./vendor/fonts.css);
+@import url(./blocks/common/title/title.css);
+@import url(./blocks/common/header/header.css);
+@import url(./blocks/common/about/about.css);
+@import url(./blocks/common/footer/footer.css);
+@import url(./blocks/about/clients/clients.css);
+@import url(./blocks/about/technology/technology.css);
+@import url(./blocks/about/glide/glide.css);
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}

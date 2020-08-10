@@ -1,0 +1,15 @@
+.footer {
+  box-sizing: border-box;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.footer__icon-link {
+  margin: 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer__icon-link:first-of-type {
+  margin-right: 28px;
+}

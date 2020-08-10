@@ -1,0 +1,19 @@
+@import url(./__main/header__main.css);
+@import url(./__main/_font/_black/header__main_font_black.css);
+@import url(./__items/header__items.css);
+@import url(./__item/header__item.css);
+@import url(./__dash/header__dash.css);
+@import url(./__dash/_active/header__dash_active.css);
+@import url(./__item-container/header__item-container.css);
+@import url(./__item/_font/_black/header__item_font_black.css);
+@import url(./__item/_font/_white/header__item_font_white.css);
+@import url(./__item/_first/header__item_first.css);
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  box-shadow: inset 0px -1px 0px #D1D2D6;
+}

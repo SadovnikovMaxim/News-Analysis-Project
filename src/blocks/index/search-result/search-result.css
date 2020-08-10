@@ -1,0 +1,32 @@
+@import url(./__date/search-result__date.css);
+@import url(./__header/search-result__header.css);
+@import url(./__image/search-result__image.css);
+@import url(./__item/search-result__item.css);
+@import url(./__items/search-result__items.css);
+@import url(./__link/search-result__link.css);
+@import url(./__subtitle/search-result__subtitle.css);
+@import url(./__title/search-result__title.css);
+@import url(./__header-container/search-result__header-container.css);
+@import url(./__text/search-result__text.css);
+@import url(./__button/search-result__button.css);
+@import url(./__link-text/search-result__link-text.css);
+@import url(./__source/search-result__source.css);
+
+.search-result {
+  width: 100%;
+  padding: 80px 104px;
+  background-color: #F5F6F7;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 1200px) {
+  .search-result {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-result {
+    padding: 16px 16px 44px 16px;
+  }
+}

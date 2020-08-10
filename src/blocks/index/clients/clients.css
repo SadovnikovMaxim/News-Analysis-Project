@@ -1,0 +1,9 @@
+@import url(./__subtitle/clients__subtitle.css);
+@import url(./__title/clients__title.css);
+@import url(./__text/clients__text.css);
+
+.clients {
+  width: 100%;
+  padding: 80px 0 94px;
+  box-sizing: border-box;
+}

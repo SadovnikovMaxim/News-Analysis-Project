@@ -1,0 +1,23 @@
+.request__path {
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #1A1B22;
+  margin: 0;
+  text-decoration: none;
+}
+
+.request__path:hover {
+  cursor: url('../../../../images/cursor.svg'), auto;
+  opacity: 0.4;
+  transition: linear 0.3s;
+}
+
+@media screen and (max-width: 480px) {
+  .request__path {
+    display: none;
+    line-height: 0px;
+  }
+}

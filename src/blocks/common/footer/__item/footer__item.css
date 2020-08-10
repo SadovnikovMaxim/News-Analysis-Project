@@ -1,0 +1,15 @@
+.footer__item {
+  text-decoration: none;
+  list-style-type: none;
+  margin-right: 43px;
+}
+
+.footer__item:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer__item {
+    margin-right: 25px;
+  }
+}

@@ -1,0 +1,39 @@
+.search__button {
+  width: 168px;
+  height: calc(100% + 2px);
+  background: #2F71E5;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+  border-radius: 100px;
+  font-family: Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.search__button:hover {
+  cursor: url('../../../../images/cursor.svg'), auto;
+  background: #347EFF;
+}
+
+.search__button:active {
+  cursor: url('../../../../images/cursor.svg'), auto;
+  background: #2A65CC;
+}
+
+@media screen and (max-width: 1024px) {
+  .search__button {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .search__button {
+    position: absolute;
+    bottom: -80px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,5 @@
+@media screen and (max-width: 768px) {
+  .glide__back-pic {
+    display: none;
+  }
+}
