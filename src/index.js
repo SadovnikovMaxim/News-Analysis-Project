@@ -1,3 +1,5 @@
 import './index.css';
 
-import { ApiNews } from "./js/modules/ApiNews";
+import { NewsApi } from "./js/modules/NewsApi";
+
+const newsApi = new NewsApi();
